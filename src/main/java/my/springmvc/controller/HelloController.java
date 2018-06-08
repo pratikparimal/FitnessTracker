@@ -11,6 +11,6 @@ public class HelloController {
 	public String sayHello(Model model)
 	{
 		model.addAttribute("greeting","HelloWorld");
-		return "helloworld";
+		return "hello";
 	}
 }
